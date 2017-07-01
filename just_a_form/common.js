@@ -7,7 +7,7 @@ $(function() {
 			url: "mail.php",
 			data: $(this).serialize()
 		}).done(function() {
-    			var message = $('<span style="font-size:20px;">Ваша заявка принята!</span>');
+    			var message = $('<span style="font-size:20px;">Thank you for your application, which we have accepted!</span>');
     			$('.text-center').append(message);
     			$('#button').remove();
 		  });
